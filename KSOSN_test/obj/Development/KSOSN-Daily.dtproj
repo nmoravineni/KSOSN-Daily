@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DATASERVER-SAND</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAh4YarSyUHECBSv+iL3iigAAAAAACAAAAAAAQZgAAAAEAACAAAADcXcU9vNFdoaJGPejNFyW7zEWIL3iPqg9JPxVbyaHi4AAAAAAOgAAAAAIAACAAAAALhxkoAjgrMdd2QF+ctfpypgFPhA2Z7gyLhQBKJjwUl5AAAAA1R3uZxDT0wnasggwYC2cEB/fhIMq2OSg0am4Zy+i4tp9K/Sh2C9M43wZzo5edr/7gGqVX2C6a229oQloygsNVmZfioNo4uF6ZZaYEetRKnlsvF86SLr/0uAKKk+J+iXfUBcgtzSSIZP/Z1u/oyMr2nAQeInBPbAEkyPHQV2km4YEEKSfG1YP0oe8qfuq8f79AAAAAEXx+WX74CNC6Z4ljGWEcK3lodnXG0Wn2XtY5qiZ+oUrIWCmQnw/j7BlTfpipHqtUSwy58qR3YVgKtleYTvDTEA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYI+qtdaTWkehsWgnbSdAuQAAAAACAAAAAAAQZgAAAAEAACAAAACjnMwScOCe37obd1+dcAgh0yX6AuremFfG/16QD/YkOQAAAAAOgAAAAAIAACAAAADbgj7WHmiiOoTUH5HPXotFQUbF+xGiUZ2rribtNVYdV5AAAADoUaABkFmmH8O/ySy1TosZjgieYp8qMJ6OQ33W1hiJDCxfrTV+KGApXr+v3lLINvVBEHeYW9zVyK69n0I4acARTWsI3T3GPExT6mLanxWN7VSNXDFWJkenhqK7ZDoLyF0sP1f2oV1dFoJH9I6zloNuPvRJyxb/5gDkr2PGR3zgCWqBexFkacj8kUiVXr86j01AAAAAbjETU+TvfQH5fTE1R9joPOeg6iS0elAripJlY6OPkWeLV6l+WUUdouVnhLldUAVNMv6fDn8gRjyPp0HouKO+yQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -43,10 +43,10 @@
                 <SSIS:Property SSIS:Name="Name">KSOSN_Stage</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">83</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">95</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{0835C99E-DC43-43CE-9AFB-F2A93DFA107F}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{F85BD647-3FF9-4384-AB79-20EFCB597565}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">6</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -2580,7 +2580,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=DATASERVER-SAND;Initial Catalog=RCO_Stage;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=.;Initial Catalog=RCO_Stage;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -2639,7 +2639,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">DATASERVER-SAND</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">.</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -6620,10 +6620,10 @@
                 <SSIS:Property SSIS:Name="Name">KSOSN_Main</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">53</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">86</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{DF0527B5-9E09-4FC8-8A9D-EBEF82A18723}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{AE0A6C95-393B-4C2A-9E0F-538D60CB1829}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">6</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -6644,7 +6644,21 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DATASERVER-SAND.LoggingDB.ConnectionString">
+                <SSIS:Parameter SSIS:Name="ZipFolder">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">{360C7B30-7E4C-4593-B168-AD1739AF1806}</SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">D:\SourceFiles\KSOSNZipLocal</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.LoggingDB.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -6655,11 +6669,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=DATASERVER-SAND;Initial Catalog=LoggingDB;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=.;Initial Catalog=LoggingDB;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DATASERVER-SAND.LoggingDB.InitialCatalog">
+                <SSIS:Parameter SSIS:Name="CM.LoggingDB.InitialCatalog">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -6674,7 +6688,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DATASERVER-SAND.LoggingDB.Password">
+                <SSIS:Parameter SSIS:Name="CM.LoggingDB.Password">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -6688,7 +6702,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DATASERVER-SAND.LoggingDB.RetainSameConnection">
+                <SSIS:Parameter SSIS:Name="CM.LoggingDB.RetainSameConnection">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -6703,7 +6717,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DATASERVER-SAND.LoggingDB.ServerName">
+                <SSIS:Parameter SSIS:Name="CM.LoggingDB.ServerName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -6714,11 +6728,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">DATASERVER-SAND</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">.</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DATASERVER-SAND.LoggingDB.UserName">
+                <SSIS:Parameter SSIS:Name="CM.LoggingDB.UserName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -6732,7 +6746,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DATASERVER-SAND.RCO_Stage.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.RCO_Stage.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -6743,11 +6757,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=DATASERVER-SAND;Initial Catalog=RCO_Stage;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=.;Initial Catalog=RCO_Stage;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DATASERVER-SAND.RCO_Stage.InitialCatalog">
+                <SSIS:Parameter SSIS:Name="CM.RCO_Stage.InitialCatalog">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -6762,7 +6776,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DATASERVER-SAND.RCO_Stage.Password">
+                <SSIS:Parameter SSIS:Name="CM.RCO_Stage.Password">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -6776,7 +6790,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DATASERVER-SAND.RCO_Stage.RetainSameConnection">
+                <SSIS:Parameter SSIS:Name="CM.RCO_Stage.RetainSameConnection">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -6791,7 +6805,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DATASERVER-SAND.RCO_Stage.ServerName">
+                <SSIS:Parameter SSIS:Name="CM.RCO_Stage.ServerName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -6802,11 +6816,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">DATASERVER-SAND</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">.</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.DATASERVER-SAND.RCO_Stage.UserName">
+                <SSIS:Parameter SSIS:Name="CM.RCO_Stage.UserName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>

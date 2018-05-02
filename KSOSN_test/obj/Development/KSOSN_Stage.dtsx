@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="KSOSN_Stage"
   DTS:PackageType="5"
-  DTS:VersionBuild="83"
-  DTS:VersionGUID="{0835C99E-DC43-43CE-9AFB-F2A93DFA107F}">
+  DTS:VersionBuild="95"
+  DTS:VersionGUID="{F85BD647-3FF9-4384-AB79-20EFCB597565}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
@@ -2714,7 +2714,7 @@
       DTS:ObjectName="DATASERVER-SAND.RCO_Stage">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=DATASERVER-SAND;Initial Catalog=RCO_Stage;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=.;Initial Catalog=RCO_Stage;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -7308,7 +7308,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{288AE883-5B18-41C9-93E9-3973F4AEE5E1}"
-          SQLTask:SqlStatementSource="UPDATE KSOSN_medication set [PRESCRIPTION ID]='NULL' where [PRESCRIPTION ID] is NULL&#xA;UPDATE KSOSN_clinenctr set [Deleted Datetime]='NULL' where [Deleted Datetime] is NULL&#xA;UPDATE KSOSN_problem set [Problem List Name] ='NULL' where [Problem List Name] is NULL&#xA;UPDATE KSOSN_Transaction_Pymt Set [Charge ID]='NULL'  where [Charge ID] is NULL&#xA;UPDATE KSOSN_Chargediagnosis set [Charge ID]='NULL'  where [Charge ID] is NULL&#xA;UPDATE KSOSN_Clinical_referralauthorization set [Patient Insurance ID]='NULL'  where [Patient Insurance ID] is NULL&#xA;Update KSOSN_Appointment set [Primary Patient Insurance ID]='NULL' where [Primary Patient Insurance ID] is NULL&#xA;Update KSOSN_claim set [Claim Appointment ID] ='0' where [Claim Appointment ID] is null&#xA;&#xA;UPDATE KSOSN_Document&#xA;SET    [Deleted Datetime] = CASE WHEN [Deleted Datetime] is NULL THEN 'NULL' ELSE [Deleted Datetime] END,&#xA;&#x9; [Deleted By] = CASE WHEN [Deleted By] is NULL THEN 'NULL' ELSE [Deleted By] END&#xA;&#xA;UPDATE KSOSN_ReferralAuthorization&#xA;SET    [Referral Auth Number] = CASE WHEN [Referral Auth Number] is NULL THEN 'NULL' ELSE [Referral Auth Number] END,&#xA;&#x9;[Referring Provider ID] = CASE WHEN [Referring Provider ID] is NULL THEN 0 ELSE [Referring Provider ID] END,&#xA;&#x9;[Start Date] = CASE WHEN [Start Date] is NULL THEN 'NULL' ELSE [Start Date] END&#xA;&#xA;&#xA;UPDATE KSOSN_Laborders&#xA;SET    [ENCOUNTER ID] = CASE WHEN [ENCOUNTER ID] is NULL THEN 'NULL' ELSE [ENCOUNTER ID] END,&#xA;&#x9;[LABORDER DATE] = CASE WHEN [LABORDER DATE] is NULL THEN 'NULL' ELSE [LABORDER DATE] END,&#xA;&#x9;[ORDER DESCRIPTION] = CASE WHEN [ORDER DESCRIPTION] is NULL THEN 'NULL' ELSE [ORDER DESCRIPTION] END,&#xA;&#x9;[Diagnosis ID] = CASE WHEN [Diagnosis ID] is NULL THEN 'NULL' ELSE [Diagnosis ID] END,&#xA;&#x9;[Notes] = CASE WHEN [Notes] is NULL THEN 'NULL' ELSE [Notes] END,&#xA;&#x9;[COMPLETION STATUS] = CASE WHEN [COMPLETION STATUS] is NULL THEN 'NULL' ELSE [COMPLETION STATUS] END,&#xA;&#x9;[Provider ID] = CASE WHEN [Provider ID] is NULL THEN 'NULL' ELSE [Provider ID] END" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="UPDATE KSOSN_medication set [PRESCRIPTION ID]='NULL' where [PRESCRIPTION ID] is NULL&#xA;UPDATE KSOSN_clinenctr set [Deleted Datetime]='NULL' where [Deleted Datetime] is NULL&#xA;UPDATE KSOSN_problem set [Problem List Name] ='NULL' where [Problem List Name] is NULL&#xA;UPDATE KSOSN_Transaction_Pymt Set [Charge ID]='NULL'  where [Charge ID] is NULL&#xA;UPDATE KSOSN_Chargediagnosis set [Charge ID]='NULL'  where [Charge ID] is NULL&#xA;UPDATE KSOSN_Clinical_referralauthorization set [Patient Insurance ID]='NULL'  where [Patient Insurance ID] is NULL&#xA;Update KSOSN_Appointment set [Primary Patient Insurance ID]='NULL' where [Primary Patient Insurance ID] is NULL&#xA;Update KSOSN_claim set [Claim Appointment ID] ='0' where [Claim Appointment ID] is null&#xA;&#xA;UPDATE KSOSN_Document&#xA;SET    [Deleted Datetime] = CASE WHEN [Deleted Datetime] is NULL THEN 'NULL' ELSE [Deleted Datetime] END,&#xA;&#x9; [Deleted By] = CASE WHEN [Deleted By] is NULL THEN 'NULL' ELSE [Deleted By] END&#xA;&#xA;UPDATE KSOSN_ReferralAuthorization&#xA;SET    [Referral Auth Number] = CASE WHEN [Referral Auth Number] is NULL THEN 'NULL' ELSE [Referral Auth Number] END,&#xA;&#x9;[Referring Provider ID] = CASE WHEN [Referring Provider ID] is NULL THEN 0 ELSE [Referring Provider ID] END,&#xA;&#x9;[Start Date] = CASE WHEN [Start Date] is NULL THEN 'NULL' ELSE [Start Date] END&#xA;&#xA;&#xA;UPDATE KSOSN_Laborders&#xA;SET    [ENCOUNTER ID] = CASE WHEN [ENCOUNTER ID] is NULL THEN 'NULL' ELSE [ENCOUNTER ID] END,&#xA;&#x9;[LABORDER DATE] = CASE WHEN [LABORDER DATE] is NULL THEN 'NULL' ELSE [LABORDER DATE] END,&#xA;&#x9;[ORDER DESCRIPTION] = CASE WHEN [ORDER DESCRIPTION] is NULL THEN 'NULL' ELSE [ORDER DESCRIPTION] END,&#xA;&#x9;[Diagnosis ID] = CASE WHEN [Diagnosis ID] is NULL THEN 'NULL' ELSE [Diagnosis ID] END,&#xA;&#x9;[Notes] = CASE WHEN [Notes] is NULL THEN 'NULL' ELSE [Notes] END,&#xA;&#x9;[COMPLETION STATUS] = CASE WHEN [COMPLETION STATUS] is NULL THEN 'NULL' ELSE [COMPLETION STATUS] END,&#xA;&#x9;[Provider ID] = CASE WHEN [Provider ID] is NULL THEN 'NULL' ELSE [Provider ID] END&#xA;&#xA;&#xA;;With #CTE AS &#xA;(&#xA;Select *,&#xA;ROW_NUMBER() OVER( PARTITION BY [Clinical Encounter ID],[Deleted Datetime] ORDER BY  [Closed Datetime] desc ) AS 'Count'&#xA;from KSOSN_clinenctr&#xA;)&#xA;delete from #CTE where Count &gt; 1;&#xA;&#xA;;With #CTE AS &#xA;(&#xA;Select *,&#xA;ROW_NUMBER() OVER( PARTITION BY [Document ID],[Patient id],[Chart ID],[Deleted datetime] ORDER BY [Created Datetime] desc) AS 'Count'&#xA;from KSOSN_Document&#xA;)&#xA;delete from #CTE where Count &gt; 1&#xA;;&#xA;&#xA;;With #CTE AS &#xA;(&#xA;Select *,&#xA;ROW_NUMBER() OVER( PARTITION BY [Clinical Encounter ID],[Past Medical HX ID],[Patient ID] ORDER BY [Created Datetime] desc) AS 'Count'&#xA;from KSOSN_Pastmedicalhx&#xA;)&#xA;delete from #CTE where Count &gt; 1&#xA;;&#xA;&#xA;;With #CTE AS &#xA;(&#xA;Select *,&#xA;ROW_NUMBER() OVER( PARTITION BY [PROBLEM ID],[Problem List Name],[Patient ID] ORDER BY [created] desc) AS 'Count'&#xA;from KSOSN_problem&#xA;)&#xA;delete from #CTE where Count &gt; 1&#xA;;&#xA;&#xA;;With #CTE AS &#xA;(&#xA;Select *,&#xA;ROW_NUMBER() OVER( PARTITION BY [Appointment ID],[Patient Id],[Primary Patient Insurance ID] ORDER BY [Appointment Check Out Datetime] desc) AS 'Count'&#xA;from KSOSN_Appointment&#xA;)&#xA;delete from #CTE where Count &gt; 1&#xA;;&#xA;&#xA;;With #CTE AS &#xA;(&#xA;Select *,&#xA;ROW_NUMBER() OVER( PARTITION BY [Allergy ID],[Patient ID] ORDER BY [created] desc) AS 'Count'&#xA;from KSOSN_Allergy&#xA;)&#xA;delete from #CTE where Count &gt; 1&#xA;&#xA;;With #CTE AS &#xA;(&#xA;Select *,&#xA;ROW_NUMBER() OVER( PARTITION BY [Claim Dianosis ID],[Claim ID] ORDER BY [Diagnosis code] desc) AS 'Count'&#xA;from KSOSN_Claimdiagnosis&#xA;)&#xA;delete from #CTE where Count &gt; 1&#xA;;&#xA;&#xA;;With #CTE AS &#xA;(&#xA;Select *,&#xA;ROW_NUMBER() OVER( PARTITION BY [Claim ID],[Patient ID],[Claim Appointment ID] ORDER BY [Primary Claim Status] desc) AS 'Count'&#xA;from KSOSN_Claim&#xA;)&#xA;delete from #CTE where Count &gt; 1&#xA;;&#xA;&#xA;;With #CTE AS &#xA;(&#xA;Select *,&#xA;ROW_NUMBER() OVER( PARTITION BY [MEDICATE ID],[PRESCRIPTION ID] ORDER BY [created] desc) AS 'Count'&#xA;from KSOSN_medication&#xA;)&#xA;delete from #CTE where Count &gt; 1&#xA;;&#xA;&#xA;;With #CTE AS &#xA;(&#xA;Select *,&#xA;ROW_NUMBER() OVER( PARTITION BY [Patient Insurance ID],[Patient ID] ORDER BY [Issue Date] desc) AS 'Count'&#xA;from KSOSN_PatientInsurance&#xA;)&#xA;delete from #CTE where Count &gt; 1&#xA;;&#xA;&#xA;&#xA;;With #CTE AS &#xA;(&#xA;Select *,&#xA;ROW_NUMBER() OVER( PARTITION BY [Charge ID] ORDER BY [First Billed Datetime] desc) AS 'Count'&#xA;from KSOSN_Transaction_Chrg&#xA;)&#xA;delete from #CTE where Count &gt; 1&#xA;;&#xA;;With #CTE AS &#xA;(&#xA;Select *,&#xA;ROW_NUMBER() OVER( PARTITION BY [Clinical Encounter ID], [Clinical Observation ID] ORDER BY [Created Datetime] desc) AS 'Count'&#xA;from KSOSN_Vitalsigns&#xA;)&#xA;delete from #CTE where Count &gt; 1&#xA;;&#xA;&#xA;;With #CTE AS &#xA;(&#xA;Select *,&#xA;ROW_NUMBER() OVER( PARTITION BY [Patient ID] ORDER BY [Ethnicity] desc) AS 'Count'&#xA;from KSOSN_patient&#xA;)&#xA;delete from #CTE where Count &gt; 1&#xA;;&#xA;;With #CTE AS &#xA;(&#xA;Select *,&#xA;ROW_NUMBER() OVER( PARTITION BY [Transaction ID], [Charge ID] ORDER BY [Transaction ID], [Charge ID] desc) AS 'Count'&#xA;from KSOSN_Transaction_Pymt&#xA;)&#xA;delete from #CTE where Count &gt; 1&#xA;;&#xA;&#xA;&#xA;;With #CTE AS &#xA;(&#xA;Select *,&#xA;ROW_NUMBER() OVER( PARTITION BY [Appointment Request ID] ORDER BY [Effective to Date] desc) AS 'Count'&#xA;from KSOSN_Appointmentrequest&#xA;)&#xA;delete from #CTE where Count &gt; 1&#xA;;&#xA;&#xA;;With #CTE AS &#xA;(&#xA;Select *,&#xA;ROW_NUMBER() OVER( PARTITION BY [Referral Auth ID],[Patient Insurance ID] ORDER BY [Start Date] desc) AS 'Count'&#xA;from KSOSN_Clinical_referralauthorization&#xA;)&#xA;delete from #CTE where Count &gt; 1&#xA;;&#xA;;With #CTE AS &#xA;(&#xA;Select *,&#xA;ROW_NUMBER() OVER( PARTITION BY [Family History ID],[Patient ID] ORDER BY [Created Datetime] desc) AS 'Count'&#xA;from KSOSN_Familyhx&#xA;)&#xA;delete from #CTE where Count &gt; 1&#xA;;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -46683,7 +46683,7 @@
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
+              BoundingBox="-16.45265625,45.75,41.9053125,9.568359375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -47049,15 +47049,15 @@
     design-time-name="Package\Sequence Container\Laborders">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="161,42"
-          Id="Package\Sequence Container\Laborders\Laborders Source"
-          TopLeft="16,5.5" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="182,42"
           Id="Package\Sequence Container\Laborders\Laborders Destination"
           TopLeft="5.50000000000001,107.5" />
+        <NodeLayout
+          Size="161,42"
+          Id="Package\Sequence Container\Laborders\Laborders Source"
+          TopLeft="16,5.5" />
         <EdgeLayout
           Id="Package\Sequence Container\Laborders.Paths[Flat File Source Output]"
           TopLeft="96.5,47.5">
@@ -47077,7 +47077,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>

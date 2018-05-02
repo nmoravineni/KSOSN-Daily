@@ -2,18 +2,18 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>KSOSN-Daily</Name>
-    <LastWriteTime>2017-08-28T19:02:50.7909536Z</LastWriteTime>
+    <LastWriteTime>2018-05-01T18:08:38.6436704Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>KSOSN_Stage.dtsx</Name>
-      <LastWriteTime>2017-07-18T19:10:14.9493055Z</LastWriteTime>
+      <LastWriteTime>2018-02-20T01:54:10.0637165Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>KSOSN_Main.dtsx</Name>
-      <LastWriteTime>2017-09-07T18:37:12.5150376Z</LastWriteTime>
+      <LastWriteTime>2018-05-01T19:14:46.0865708Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
